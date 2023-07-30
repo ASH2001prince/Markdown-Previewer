@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    font-family: "Prompt", sans-serif;
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eeeeee;
+  }
+  #root {
+    width: 100%;
+  }
+  code {
+    color: black;
+    background-color: white;
+  }
+  pre {
+    display: block;
+    color: black;
+    background-color: white;
+    overflow: auto;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    border-bottom: 2px solid #ffffff;
+  }
+}
